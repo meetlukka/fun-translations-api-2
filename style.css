@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&family=Ubuntu&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    background: #1ea39e;
+    height: 8rem;
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+.inner{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0rem 1rem;
+    color: #5b2934;
+    font-size: 2rem;
+}
+
+main{
+    max-width: 600px;
+    margin: auto;
+    background:  #f6f6f6;
+    text-align: center;
+}
+
+/* hr{
+    width:70%;
+    text-align: center;
+} */
+
+textarea{
+    width:100%;
+    min-height: 20vh;
+    display: block;
+    margin: 2rem 0;
+    resize: none;
+    font-size: 2rem;
+}
+.translate-btn{
+    width: 7rem;
+    height: 3rem;
+    vertical-align: top;
+    margin: 3rem 1rem;
+    background: #084f9d;
+    color:  #feeeba;
+    font-size: 1rem;
+    border-radius: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.translate-btn:hover{
+    color:#084f9d;
+    background: #f7971d;
+    font-size: 1rem;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+@media (max-width:629px) {
+    img#image-tag {
+      display: none;
+    }
+  } 
+ 

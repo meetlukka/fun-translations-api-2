@@ -6,7 +6,8 @@ var url = "https://api.funtranslations.com/translate/ferb-latin.json"
 button.addEventListener("click",eventHandler);
 
 function contructURL(text){
-    return url + "?text=" + text;
+    var encodedURI = encodeURI(text);
+    return url + "?text=" + encodedURI;
 }
 function eventHandler() {
     var text = input.value;

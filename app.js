@@ -7,9 +7,12 @@ button.addEventListener("click",eventHandler);
 
 function contructURL(text){
     var encodedURI = encodeURI(text);
+    console.log("url done")
     return url + "?text=" + encodedURI;
+    
 }
 function eventHandler() {
+    console.log("button");
     var text = input.value;
 
     fetch(contructURL(text))
